@@ -1,0 +1,32 @@
+print("=== PROGRAM PERKENALAN DUA ORANG ===")
+
+# Data orang pertama
+nama1 = input("Masukkan nama orang pertama: ")
+alamat1 = input("Masukkan alamat orang pertama: ")
+pekerjaan1 = input("Masukkan pekerjaan orang pertama: ")
+
+# Data orang kedua
+nama2 = input("\nMasukkan nama orang kedua: ")
+alamat2 = input("Masukkan alamat orang kedua: ")
+pekerjaan2 = input("Masukkan pekerjaan orang kedua: ")
+
+print("\n=== PERCAKAPAN PERKENALAN ===")
+
+print(f"\n{nama1}: Halo, perkenalkan nama saya {nama1}.")
+print(f"{nama2}: Halo {nama1}, nama saya {nama2}.")
+print(f"{nama1}: Senang berkenalan denganmu.")
+
+print(f"\n{nama1}: Kamu tinggal di mana?")
+print(f"{nama2}: Saya tinggal di {alamat2}.")
+print(f"{nama2}: Kalau kamu tinggal di mana?")
+print(f"{nama1}: Saya tinggal di {alamat1}.")
+
+print(f"\n{nama1}: Apa pekerjaan kamu?")
+print(f"{nama2}: Pekerjaan saya adalah {pekerjaan2}.")
+print(f"{nama2}: Kalau pekerjaan kamu apa?")
+print(f"{nama1}: Saya bekerja sebagai {pekerjaan1}.")
+
+print(f"\n{nama1}: Wah, senang bisa mengenalmu!")
+print(f"{nama2}: Saya juga senang berkenalan denganmu.")
+print(f"{nama1}: Sampai jumpa!")
+print(f"{nama2}: Sampai jumpa!")
